@@ -1,0 +1,27 @@
+{
+  "name": "tolollipop/tp8-captcha",
+  "description": "tp8-captcha",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "tolollipop",
+      "email": "tolollipop@gzlsf.cn"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "homepage": "https://github.com/tolollipop/tp8-captcha",
+  "autoload": {
+    "psr-4": {
+      "tolollipop\\captcha\\": "src/"
+    }
+  },
+  "extra": {
+    "think": {
+      "config": {
+        "captcha": "src/config.php"
+      }
+    }
+  }
+}
